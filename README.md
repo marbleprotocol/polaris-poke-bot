@@ -7,11 +7,6 @@ A simple bot to poke [Polaris](https://github.com/marbleprotocol/polaris), a tru
 yarn
 ```
 
-### Install dependencies
-```
-yarn
-```
-
 ### Build
 ```
 yarn build 
