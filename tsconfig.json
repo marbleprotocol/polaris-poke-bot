@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es2017", "dom"],
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "noImplicitReturns": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "declaration": false,
+    "allowJs": true,
+    "typeRoots": ["node_modules/@types", "node_modules/@0x/typescript-typings/types"]
+  },
+  "include": [
+      "./globals.d.ts",
+      "./src/**/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

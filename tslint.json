@@ -1,0 +1,7 @@
+{
+  "extends": ["@0x/tslint-config"],
+  "rules": {
+    "no-console": false,
+    "custom-no-magic-numbers": false
+  }
+}
